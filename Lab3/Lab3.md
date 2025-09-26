@@ -41,7 +41,7 @@ On-premises file storage has limited capacity, requires hardware expansion, and 
 On-prem networking requires manual configuration, physical devices, and scaling limitations. Cloud-native networking offers software-defined networks with built-in firewalls, load balancing, and hybrid connectivity options.
 
 * **Email** - SaaS  .
-n-house SMTP servers face reliability and deliverability challenges, as well as ongoing patching requirements. Migrating to SaaS email improves deliverability, scales with demand, and eliminates maintenance overhead.
+In-house SMTP servers face reliability and deliverability challenges, as well as ongoing patching requirements. Migrating to SaaS email improves deliverability, scales with demand, and eliminates maintenance overhead.
 
 
 # Section 2 - Migration Strategies
@@ -51,8 +51,6 @@ The retail company is moving from on-premises infrastructure to the cloud using 
 - Some components will be migrated quickly with minimal changes (*Lift-and-Shift*).  
 - Others will be modernized to take advantage of cloud benefits (*Replatforming* or *Refactoring*).  
 - The migration will be phased to reduce risk and ensure smooth transition.  
-
-The professor’s requirement is followed: **Database must remain on IaaS**.
 
 ---
 
@@ -170,4 +168,5 @@ The professor’s requirement is followed: **Database must remain on IaaS**.
 
 The company is migrating from on-premises to the cloud using a hybrid strategy that balances quick lift-and-shift with gradual modernization.  
 The web app starts on IaaS for speed, with a plan to refactor into PaaS later for scalability.  The database stays on IaaS to preserve admin control and meet requirements.  File storage moves to cloud object storage for unlimited, redundant, and globally accessible capacity.  
+
 Email and networking are shifted to SaaS and cloud-native solutions, reducing maintenance while enhancing security and reliability.
