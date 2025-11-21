@@ -71,7 +71,7 @@ Tailwind should use a **production assessment** because this is a real business 
 
 ### Business requirements  
 - The application is important for the business  
-- Allowed downtime: **1 hour**  
+- Allowed downtime: 1 hour  
 - Data is internal business data  
 - SQL Server licensing must be considered  
 - Monthly patching  
@@ -166,3 +166,4 @@ If something goes wrong:
 ## Conclusion  
 
 In this lab, I created a clear migration plan for Tailwind Traders based on class steps. I documented the discovery setup, assessment planning, dependency analysis, and validation process. I also prepared a simple runbook and grouped the servers into migration waves. This helped me understand how companies plan and organize real migrations to Azure in a safe and structured way.
+
