@@ -21,7 +21,7 @@ Only one **Azure Migrate appliance** is needed. All servers are in the same on-p
 ### Three best practices for discovery  
 1. Make sure the appliance can reach all servers and required ports are open.  
 2. Test all credentials first, so the discovery does not fail later.  
-3. Let the discovery run for about **30 days** to collect enough performance data.
+3. Let the discovery run for about 30 days to collect enough performance data.
 
 ---
 
@@ -68,8 +68,6 @@ Tailwind should use a **production assessment** because this is a real business 
 - Antivirus traffic  
 - Public internet IPs  
 - Background Microsoft system services  
-
-These are not part of the application and should be removed.
 
 ### Business requirements  
 - The application is important for the business  
@@ -166,4 +164,5 @@ If something goes wrong:
 ---
 
 ## Conclusion  
+
 In this lab, I created a clear migration plan for Tailwind Traders based on class steps. I documented the discovery setup, assessment planning, dependency analysis, and validation process. I also prepared a simple runbook and grouped the servers into migration waves. This helped me understand how companies plan and organize real migrations to Azure in a safe and structured way.
